@@ -1,0 +1,92 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-image: url('../img/9u.png');
+}
+
+@font-face {
+    font-family: "CarlaSansLight";
+    src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+    font-style: Light;
+    font-weight: Light;
+}
+
+h1, p , #win-message{
+    font-family: 'CarlaSansLight';
+    font-size: 32px;
+    background: #f8f8f8;
+    padding: 1%;
+    
+}
+
+#game-container {
+    position: relative;
+    width: 95vw;
+    height: 80vh;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    margin-left: 2%;
+    border-radius: 5px;
+    border: #000 3px solid;
+}
+#salute-gif,#win-message{
+position: absolute;
+margin-left: 40%;
+z-index: 10;
+
+}
+#player {
+    position: absolute;
+    top: 2%;
+    width: 100px;
+    height: 100px;
+}
+
+.button-container {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*   
+.button {
+    display: none;
+  } */
+
+#score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.apple {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/apple.png');
+    background-size: cover;
+}
+
+#score {
+    margin-bottom: 10px;
+}
+
+#level {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+a , a:active , a:hover {
+    text-decoration: none;
+    color: #000;
+}

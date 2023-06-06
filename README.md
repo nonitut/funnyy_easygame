@@ -1,1 +1,1 @@
-# funnyy_easygame
+# Шаблон 

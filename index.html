@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{ссылка}">
+  <meta property="og:title" content="название">
+  <meta property="og:description" content="текст">
+  <meta property="og:image" content="{картинка}">
+  <title>Игра сбора яблок</title>
+  <link href="./stylesheets/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
+  <script src="javascripts/java-script.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <h1>Game: Сбор яблок, в ней 2 уровня! 5 и 10 яблок! Твоя задача их собрать.</h1>
+  <p id="level">Level: 1</p>
+  <div id="win-message" style="display: none;">Вы выиграли!</div>
+  <img id="salute-gif" src="https://i.gifer.com/6ob.gif" alt="Салют" style="display: none;">
+  <img id="salute-gif" src="https://i.gifer.com/6ob.gif" alt="Салют" style="display: none;">
+  <img id="salute-gif" src="https://i.gifer.com/6ob.gif" alt="Салют" style="display: none;">
+  
+  
+  <div id="game-container">
+    <div id="player">
+      <img src="img/player.png" alt="">
+    </div>
+  </div>
+  <div id="score">Score: 0</div>
+  <div class="button-container">
+    <button id="start-button" class="button">Start</button>
+    <button id="next-level-button" class="button">Next Level</button>
+    <a href="index.html" ><button id="restart-button" class="button" > Restart</button></a>
+    <!-- <button id="restart-button" class="button" onclick="location.reload()">Restart</button> как вариант решения -->
+
+    <div id="win-message"></div>
+  </div>
+  
+  
+
+</body>
+
+</html>
